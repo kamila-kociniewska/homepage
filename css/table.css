@@ -1,0 +1,40 @@
+.table {
+    font-family: "Lato", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid rgb(194, 188, 188);
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: rgb(80, 177, 143);
+    color: rgb(247, 244, 244);
+    font-weight: normal;
+}
+
+.table__cell--header:hover {
+    background-color: aquamarine;
+}
+
+.table__row {
+    background-color: white;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(218, 226, 223);
+}
+
+.table__row:hover {
+    background: #d3d0d0;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin-top: 20px;
+}

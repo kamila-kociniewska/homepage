@@ -1,0 +1,53 @@
+.html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgb(238, 237, 237);
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header__title {
+    color: rgb(22, 25, 151);
+    text-align: center;
+    word-wrap: break-word;
+    border-radius: 20px;
+    text-shadow: 15px 12px 19px rgb(39, 53, 83);
+}
+
+.fonts {
+    font: 16px/1.5 'Lato', sans-serif;
+}
+
+.dark {
+    color: rgb(49, 49, 47);
+    background-color: rgba(182, 180, 180, 0.445);
+}
+
+.header__picture {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.footer {
+    color: rgb(63, 61, 61);
+    padding: 15px;
+}
+
+.button {
+    color: rgb(95, 91, 91);
+    font: bold 14px/1.0 'Lato', sans-serif;
+    height: 50px;
+    width: 150px;
+    background: rgb(234, 241, 241);
+    border: 3px solid rgb(201, 127, 100);
+}

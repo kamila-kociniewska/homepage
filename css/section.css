@@ -1,0 +1,64 @@
+.section {
+    max-width: 800px;
+    padding: 15px;
+    box-shadow: 1px 1px 5px #b8b7b7;
+    margin: 20px auto;
+}
+
+.section__header {
+    text-align: left;
+    color: orangered;
+    max-width: 400px;
+    margin: 40px 10px 25px 10px;
+    border-radius: 5px;
+    text-shadow: 3px 4px 5px rgb(167, 166, 166);
+}
+
+.section__paragraph {
+    color: black;
+}
+
+.section__paragraph--list {
+    color: black;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.section__paragraph--important {
+    color: rgb(4, 97, 97);
+}
+
+.section__header--margin {
+    margin: 15px;
+}
+
+.section__link {
+    color: rgb(4, 4, 99);
+    text-decoration: none;
+}
+
+.section__link:visited {
+    color: blue;
+}
+
+.section__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.section__link:hover {
+    color: darkviolet;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.section__link:active {
+    color: brown;
+}
+
+.section__list {
+    padding-left: 25px;
+}
+
+.section__listItem {
+    margin: 10px 0;
+}
